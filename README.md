@@ -1,14 +1,17 @@
 # scrape_hashtag_tweets
 
 **Purpose**
+
 This Python script scrapes tweets containing a specific hashtag from Twitter without need for the Twitter API and saves them to a CSV file. It was created by kzaman1 and is available on GitHub.
 
 **Requirements**
+
 This script requires Python 3 and the following packages:
 - snscrape
 - pandas
 
 **How to Use**
+
 1. Clone or download the repository to your local machine.
 2. Install the required packages listed above in the requiremetns section by running pip install.
 3. Open the python file and edit: the hashtag, the number of tweets you want, and the directory path where you want the .csv to be located.
@@ -16,6 +19,7 @@ This script requires Python 3 and the following packages:
 5. The script will scrape tweets containing the specified hashtag and save them to a CSV file with the filename containing the number of tweets you specified (note: it will not be the actual number of tweets), hashtag you used, and the current date.
 
 **Tweet Parameters Scraped**
+
 The script will scrape the following from each tweet that mentions the hashtag
 1. date: the date of the tweet
 2. tweet_url: the url to the tweet
@@ -49,8 +53,10 @@ The script will scrape the following from each tweet that mentions the hashtag
 30. tweet_hashtags: the neseted hashtag metadata if it was used in the user's tweets
 
 
-License
+**License**
+
 This script is released under the MIT License.
 
-Disclaimer
+**Disclaimer**
+
 This script is provided as-is, without any warranty or support. Use at your own risk.
